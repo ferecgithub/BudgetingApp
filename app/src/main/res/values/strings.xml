@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Budgeting APP</string>
+    <string name="expense_income_app">Budgeting APP</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="save">Save</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="search">Search by Value (Range is +-100)</string>
+    <string name="show_monthly_report">Show Monthly Report</string>
+    <string name="update_record">Update Record</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="add">Add Record</string>
+    <string name="add_new_record">Add New Record</string>
+    <string name="add_random_dummy_records_test">Add Random Dummy Records (TEST)</string>
+</resources>

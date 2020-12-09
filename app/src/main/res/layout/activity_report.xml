@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ReportActivity">
+
+
+    <TextView
+        android:id="@+id/month1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/month2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/month2" />
+
+    <TextView
+        android:id="@+id/month2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintEnd_toStartOf="@+id/month3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month1"
+        app:layout_constraintTop_toTopOf="@+id/month3" />
+
+    <TextView
+        android:id="@+id/month3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        app:layout_constraintEnd_toStartOf="@+id/month4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month2"
+        app:layout_constraintTop_toTopOf="@+id/month4" />
+
+    <TextView
+        android:id="@+id/month4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        app:layout_constraintEnd_toStartOf="@+id/month11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month3"
+        app:layout_constraintTop_toTopOf="@+id/month11" />
+
+    <TextView
+        android:id="@+id/month5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        app:layout_constraintEnd_toStartOf="@+id/month10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month11"
+        app:layout_constraintTop_toTopOf="@+id/month10" />
+
+    <TextView
+        android:id="@+id/month6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        app:layout_constraintEnd_toStartOf="@+id/month9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month10"
+        app:layout_constraintTop_toTopOf="@+id/month9" />
+
+    <TextView
+        android:id="@+id/month7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        app:layout_constraintEnd_toStartOf="@+id/month12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month8"
+        app:layout_constraintTop_toTopOf="@+id/month12" />
+
+    <TextView
+        android:id="@+id/month8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        app:layout_constraintEnd_toStartOf="@+id/month7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month9"
+        app:layout_constraintTop_toTopOf="@+id/month7" />
+
+    <TextView
+        android:id="@+id/month9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        app:layout_constraintEnd_toStartOf="@+id/month8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month6"
+        app:layout_constraintTop_toTopOf="@+id/month8" />
+
+    <TextView
+        android:id="@+id/month10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        app:layout_constraintEnd_toStartOf="@+id/month6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month5"
+        app:layout_constraintTop_toTopOf="@+id/month6" />
+
+    <TextView
+        android:id="@+id/month11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        app:layout_constraintEnd_toStartOf="@+id/month5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month4"
+        app:layout_constraintTop_toTopOf="@+id/month5" />
+
+    <TextView
+        android:id="@+id/month12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/month7" />
+
+    <ImageView
+        android:id="@+id/income1"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense1"
+        app:layout_constraintStart_toEndOf="@+id/expense1" />
+
+    <ImageView
+        android:id="@+id/expense1"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month1"
+        app:layout_constraintStart_toStartOf="@+id/month1" />
+
+    <ImageView
+        android:id="@+id/income2"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense2"
+        app:layout_constraintStart_toEndOf="@+id/expense2" />
+
+    <ImageView
+        android:id="@+id/expense2"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month2"
+        app:layout_constraintStart_toStartOf="@+id/month2" />
+
+    <ImageView
+        android:id="@+id/income3"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense3"
+        app:layout_constraintStart_toEndOf="@+id/expense3" />
+
+    <ImageView
+        android:id="@+id/expense3"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month3"
+        app:layout_constraintStart_toStartOf="@+id/month3" />
+
+    <ImageView
+        android:id="@+id/expense4"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month4"
+        app:layout_constraintStart_toStartOf="@+id/month4" />
+
+    <ImageView
+        android:id="@+id/income4"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense4"
+        app:layout_constraintStart_toEndOf="@+id/expense4" />
+
+    <ImageView
+        android:id="@+id/income5"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense5"
+        app:layout_constraintStart_toEndOf="@+id/expense5" />
+
+    <ImageView
+        android:id="@+id/expense5"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month11"
+        app:layout_constraintStart_toStartOf="@+id/month11" />
+
+    <ImageView
+        android:id="@+id/expense6"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month5"
+        app:layout_constraintStart_toStartOf="@+id/month5" />
+
+    <ImageView
+        android:id="@+id/income6"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense6"
+        app:layout_constraintStart_toEndOf="@+id/expense6" />
+
+    <ImageView
+        android:id="@+id/income7"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense7"
+        app:layout_constraintStart_toEndOf="@+id/expense7" />
+
+    <ImageView
+        android:id="@+id/expense7"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month10"
+        app:layout_constraintStart_toStartOf="@+id/month10" />
+
+    <ImageView
+        android:id="@+id/expense8"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month6"
+        app:layout_constraintStart_toStartOf="@+id/month6" />
+
+    <ImageView
+        android:id="@+id/income8"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense8"
+        app:layout_constraintStart_toEndOf="@+id/expense8" />
+
+    <ImageView
+        android:id="@+id/expense9"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month9"
+        app:layout_constraintStart_toStartOf="@+id/month9" />
+
+    <ImageView
+        android:id="@+id/income9"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense9"
+        app:layout_constraintStart_toEndOf="@+id/expense9" />
+
+    <ImageView
+        android:id="@+id/expense10"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month8"
+        app:layout_constraintStart_toStartOf="@+id/month8" />
+
+    <ImageView
+        android:id="@+id/income10"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense10"
+        app:layout_constraintStart_toEndOf="@+id/expense10" />
+
+    <ImageView
+        android:id="@+id/expense11"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month7"
+        app:layout_constraintStart_toStartOf="@+id/month7" />
+
+    <ImageView
+        android:id="@+id/income11"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense11"
+        app:layout_constraintStart_toEndOf="@+id/expense11" />
+
+    <ImageView
+        android:id="@+id/expense12"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/month12"
+        app:layout_constraintStart_toStartOf="@+id/month12" />
+
+    <ImageView
+        android:id="@+id/income12"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/expense12"
+        app:layout_constraintStart_toEndOf="@+id/expense12" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

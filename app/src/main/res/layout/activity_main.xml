@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/search_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/search" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/expenseSearch_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/expense" />
+
+        <RadioButton
+            android:id="@+id/incomeSearch_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/income" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="\t\t\t\t\t\t Date \t\t\t\t\t\t\t\t\t\t Amount \t\t\t\t Description \t\t\t\t Type\t\t"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/add_new_record"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/report_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/show_monthly_report"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
