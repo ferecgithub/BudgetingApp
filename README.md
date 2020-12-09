@@ -14,5 +14,5 @@ It was interesting to work with charts with plain android components.
 ![alt text](https://github.com/ferecgithub/BudgetingApp/blob/master/github_pics/budgetingApp_1.png)
 
 #### Monthly Report Screen
-![https://github.com/ferecgithub/BudgetingApp/blob/master/github_pics/budgetingApp_2.png)
+![alt text](https://github.com/ferecgithub/BudgetingApp/blob/master/github_pics/budgetingApp_2.png)
 
